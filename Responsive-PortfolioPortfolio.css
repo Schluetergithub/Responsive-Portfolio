@@ -1,0 +1,117 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+    border: 0;
+}
+
+
+
+
+
+
+body {
+    background-image: url("Assets/images/what-the-hex.png")
+}
+
+
+header {
+    background-color:white;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-bottom-width: 1px;
+    
+}
+
+
+nav {
+    float:right;
+    margin-right:150px;
+    margin-top:10px;
+    
+
+}
+
+h1 {
+    float:left;
+    background-color:#4aaaa5;
+    color:white;
+    margin-left:100px;
+    
+
+    
+
+}
+
+.clearfix:after {
+    content:""; 
+    display:block;
+    clear:both;
+
+}
+
+img {
+    float:left;
+
+}
+
+footer {
+    clear:both;
+    height:50px;
+    background-color:grey;
+    text-align:center;
+    border-top-style:solid;
+    border-top-color:#4aaaa5;
+    border-top-width:5px;
+
+}
+
+
+section {
+    width:960px;
+    background-color:white;
+}
+
+.pics{
+    background-color:white;
+    width:960px;
+    height:800px;
+    margin-right:150px;
+    margin-bottom:100px;
+}
+
+#portfolio{
+    margin:50px;
+    font-size:32px;
+    border-bottom-style:solid;
+    border-bottom-color:grey;
+    border-bottom-width:1px;
+    padding-bottom:10px;
+}
+
+.image1{
+    margin-left:50px;
+    margin-right:50px;
+    
+}
+
+.image2{
+    float:right;
+    margin-right:225px;
+}
+
+.image3{
+    margin-top:20px;
+    margin-left:50px; 
+}
